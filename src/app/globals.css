@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Design tokens — KHÔNG hardcode hex trong component, dùng class map từ đây */
+@theme {
+  /* color — text */
+  --color-ink: #181618;
+  --color-text-primary: #181618;
+  --color-text-secondary: #4a474b;
+  --color-text-muted: #8a868c;
+
+  /* color — background */
+  --color-bg-page: #ffffff;
+  --color-bg-surface: #f7f5f2;
+  --color-bg-inset: #efece8;
+  --color-bg-dark: #161214;
+
+  /* color — line + accent */
+  --color-border-light: #e7e3de;
+  --color-accent: #9a1b1b;
+  --color-accent-soft: #f6e9e7;
+  --color-on-dark: #f4f1ee;
+  --color-on-dark-muted: #a8a2a0;
+
+  /* type */
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  --font-display: var(--font-sans);
+
+  /* radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 28px;
+
+  /* shadow */
+  --shadow-card: 0 1px 2px rgba(24, 22, 24, 0.04), 0 10px 30px rgba(24, 22, 24, 0.07);
+  --shadow-soft: 0 1px 2px rgba(24, 22, 24, 0.05);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-bg-page text-text-primary font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-accent);
+    color: #fff;
+  }
+  /* Inline SVG từ Icon kế thừa màu hiện tại */
+  [data-id^="icon-"] svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
