@@ -5,6 +5,6 @@ export const site = {
   phone: "036 9956 118",
   behanceLabel: "behance.net/hoangnhon",
   behanceUrl: "https://www.behance.net/hoangnhon",
-  linkedinUrl: "#", // TODO: Nhơn cập nhật link LinkedIn
+  linkedinUrl: "https://www.linkedin.com/in/ph%E1%BA%A1m-ho%C3%A0ng-nh%C6%A1n-098617218/",
   cvFile: "/cv/PHAM-HOANG-NHON-CV.pdf",
 } as const;

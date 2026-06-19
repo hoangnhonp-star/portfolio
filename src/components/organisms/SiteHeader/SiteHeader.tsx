@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useT } from "@/components/LanguageProvider/LanguageProvider";
 import { Icon } from "@/components/Icon/Icon";
 import { LanguageToggle } from "@/components/organisms/LanguageToggle/LanguageToggle";
-import { site } from "@/data/site";
+import { ThemeToggle } from "@/components/organisms/ThemeToggle/ThemeToggle";
 
 const navItems = [
   { key: "work", href: "/#work" },
@@ -51,16 +51,8 @@ export function SiteHeader() {
         </nav>
 
         <div data-id="header-actions" className="flex items-center gap-3">
+          <ThemeToggle dataId="header-theme" />
           <LanguageToggle dataId="header-lang" />
-          <a
-            data-id="header-cv-btn"
-            href={site.cvFile}
-            download
-            className="hidden items-center gap-2 rounded-full bg-ink px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent sm:inline-flex"
-          >
-            {t.nav.cv}
-            <Icon name="download" size={15} />
-          </a>
           <button
             data-id="header-menu-btn"
             type="button"
@@ -92,17 +84,6 @@ export function SiteHeader() {
                 </Link>
               </li>
             ))}
-            <li>
-              <a
-                data-id="header-mobile-cv"
-                href={site.cvFile}
-                download
-                className="mt-1 flex items-center gap-2 rounded-md px-2 py-2.5 text-base font-medium text-accent"
-              >
-                {t.nav.cv}
-                <Icon name="download" size={16} />
-              </a>
-            </li>
           </ul>
         </nav>
       ) : null}

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Icon } from "@/components/Icon/Icon";
 
-type Variant = "primary" | "secondary" | "ghost";
+type Variant = "primary" | "secondary" | "ghost" | "glow";
 
 type CTAButtonProps = {
   href: string;
@@ -17,9 +17,10 @@ const base =
   "inline-flex items-center gap-2 rounded-full text-sm font-medium transition-colors duration-200 px-5 py-3 leading-none";
 
 const variants: Record<Variant, string> = {
-  primary: "bg-accent text-white hover:bg-ink",
-  secondary: "border border-border-light text-text-primary hover:border-ink hover:bg-bg-surface",
+  primary: "btn-neon bg-accent text-white hover:bg-ink",
+  secondary: "btn-neon border border-border-light text-text-primary hover:bg-bg-surface",
   ghost: "text-text-primary hover:text-accent px-0 py-1",
+  glow: "btn-neon btn-glow",
 };
 
 export function CTAButton({

@@ -17,20 +17,43 @@ export const en = {
   home: {
     hero: {
       eyebrow: "Graphic Designer · Campaign & E-commerce",
-      title: "Design that moves products — at the scale of a campaign.",
+      title: "Turning marketing briefs into visual systems that scale.",
       subtitle:
-        "I'm Phạm Hoàng Nhơn, a graphic designer with 6 years turning marketing briefs into scalable visual systems for campaigns, e-commerce, and multi-brand retail.",
+        "I build visual systems that keep campaigns consistent — from the key visual to hundreds of media touchpoints.",
       ctaPrimary: "View work",
       ctaSecondary: "Get in touch",
     },
     work: {
       eyebrow: "Selected Work",
-      title: "Three projects, three problems solved.",
+      title: "Problems I've solved.",
       subtitle:
-        "Each shows a different facet: AI-accelerated production, multi-brand systems, and high-pressure launch execution.",
+        "From AI workflow to campaign systems and e-commerce execution, each project reflects a different approach to design work.",
       viewCase: "View case study",
     },
-    trust: { label: "Brands I've designed for" },
+    trust: {
+      label: "Brands I've designed for",
+      heading1: "Brands I've designed for.",
+      heading2: "Across retail and e-commerce.",
+    },
+    gallery: {
+      eyebrow: "Visual Archive",
+      title: "Selected designs, up close.",
+      subtitle:
+        "A curated set of campaign key visuals, banners, and landing pages shipped across retail and e-commerce. Tap any piece to enlarge.",
+    },
+    services: {
+      eyebrow: "Services",
+      heading: "Design services, built to scale.",
+      subtitle:
+        "From a single key visual to a full multi-brand system — pick what fits your campaign.",
+      cta: "Start a project",
+      tabs: {
+        campaign: "Campaign",
+        ecommerce: "E-commerce",
+        landing: "Landing Page",
+        system: "Visual System",
+      },
+    },
     about: {
       eyebrow: "About",
       text: "Six years across retail and e-commerce taught me one thing: good design isn't decoration — it's a business decision. I build visual systems that stay consistent across dozens of assets, multiple brands, and tight deadlines.",
@@ -158,7 +181,8 @@ export const en = {
   projects: {
     p1: {
       title: "Designing with AI, Not by AI",
-      tagline: "AI generates possibilities. Designers make decisions.",
+      tagline:
+        "Exploring how AI can accelerate production while design decisions remain human-led.",
       metaRole: "Role: Graphic Designer (concept, system, production)",
       metaType: "Type: AI-assisted workflow study",
       metaBrands: "Context: Retail campaign production, Mobile World Group",
@@ -192,7 +216,7 @@ export const en = {
     },
     p2: {
       title: "Halloween Campaign 2025 — One System, Two Brands",
-      tagline: "One campaign system. Two brand expressions.",
+      tagline: "One campaign, two brands, a scalable visual system.",
       metaRole: "Role: Campaign visual system, multi-brand adaptation, game design",
       metaType: "Type: Seasonal campaign · October 2025",
       metaBrands: "Brands: Thegioididong × Điện máy XANH",
@@ -221,7 +245,7 @@ export const en = {
     },
     p3: {
       title: "iPhone 17 Pro Launch — Built for the Reveal",
-      tagline: "Designed for consistency. Built for adaptation.",
+      tagline: "Building a launch-ready visual system under tight timelines.",
       metaRole: "Role: Campaign adaptation, visual system design, landing-page execution",
       metaType: "Type: Product launch campaign · September 2025",
       metaBrands: "Brands: TopZone × Thegioididong",
@@ -267,20 +291,43 @@ export const vi: typeof en = {
   home: {
     hero: {
       eyebrow: "Graphic Designer · Campaign & E-commerce",
-      title: "Thiết kế bán được hàng — ở quy mô một chiến dịch.",
+      title: "Biến brief marketing thành hệ thống hình ảnh có thể mở rộng.",
       subtitle:
-        "Tôi là Phạm Hoàng Nhơn, graphic designer 6 năm kinh nghiệm, biến brief marketing thành hệ thống visual có thể mở rộng cho campaign, e-commerce và bán lẻ đa thương hiệu.",
+        "Tôi xây dựng visual systems giúp các chiến dịch triển khai nhất quán từ key visual đến hàng trăm điểm chạm truyền thông.",
       ctaPrimary: "Xem dự án",
       ctaSecondary: "Liên hệ",
     },
     work: {
-      eyebrow: "Dự án tiêu biểu",
-      title: "Ba dự án, ba bài toán được giải.",
+      eyebrow: "Selected Work",
+      title: "Những bài toán tôi đã giải quyết.",
       subtitle:
-        "Mỗi dự án thể hiện một khía cạnh: sản xuất tăng tốc bằng AI, hệ thống đa thương hiệu, và thực thi chiến dịch ra mắt áp lực cao.",
+        "Từ AI workflow đến campaign systems và e-commerce execution, mỗi dự án phản ánh một cách tiếp cận khác nhau trong công việc thiết kế.",
       viewCase: "Xem case study",
     },
-    trust: { label: "Các thương hiệu tôi từng thiết kế" },
+    trust: {
+      label: "Các thương hiệu tôi từng thiết kế",
+      heading1: "Những thương hiệu tôi đã thiết kế.",
+      heading2: "Trong bán lẻ và thương mại điện tử.",
+    },
+    gallery: {
+      eyebrow: "Visual Archive",
+      title: "Tuyển tập thiết kế.",
+      subtitle:
+        "Một lát cắt tuyển chọn — key visual, banner và landing page đã triển khai qua bán lẻ và e-commerce. Chạm vào ảnh để xem lớn.",
+    },
+    services: {
+      eyebrow: "Dịch vụ",
+      heading: "Dịch vụ thiết kế, xây để mở rộng.",
+      subtitle:
+        "Từ một key visual đến trọn hệ thống đa thương hiệu — chọn đúng thứ chiến dịch của bạn cần.",
+      cta: "Bắt đầu dự án",
+      tabs: {
+        campaign: "Campaign",
+        ecommerce: "E-commerce",
+        landing: "Landing Page",
+        system: "Visual System",
+      },
+    },
     about: {
       eyebrow: "Giới thiệu",
       text: "Sáu năm trong mảng bán lẻ và e-commerce dạy tôi một điều: thiết kế tốt không phải để trang trí — nó là một quyết định kinh doanh. Tôi xây những hệ thống visual giữ được sự nhất quán qua hàng chục asset, nhiều thương hiệu và deadline gấp.",
@@ -408,7 +455,8 @@ export const vi: typeof en = {
   projects: {
     p1: {
       title: "Designing with AI, Not by AI",
-      tagline: "AI tạo ra khả năng. Designer là người ra quyết định.",
+      tagline:
+        "Khám phá cách AI tăng tốc sản xuất trong khi các quyết định thiết kế vẫn do con người dẫn dắt.",
       metaRole: "Vai trò: Graphic Designer (concept, hệ thống, sản xuất)",
       metaType: "Loại: Nghiên cứu workflow ứng dụng AI",
       metaBrands: "Bối cảnh: Sản xuất campaign bán lẻ, Mobile World Group",
@@ -442,7 +490,7 @@ export const vi: typeof en = {
     },
     p2: {
       title: "Halloween Campaign 2025 — Một hệ thống, Hai thương hiệu",
-      tagline: "Một hệ thống chiến dịch. Hai cách thể hiện thương hiệu.",
+      tagline: "Một chiến dịch, hai thương hiệu, một hệ thống hình ảnh có thể mở rộng.",
       metaRole: "Vai trò: Hệ thống visual chiến dịch, thích ứng đa thương hiệu, thiết kế game",
       metaType: "Loại: Chiến dịch theo mùa · Tháng 10/2025",
       metaBrands: "Thương hiệu: Thegioididong × Điện máy XANH",
@@ -471,7 +519,7 @@ export const vi: typeof en = {
     },
     p3: {
       title: "iPhone 17 Pro Launch — Sẵn sàng cho giờ G",
-      tagline: "Thiết kế để nhất quán. Xây để thích ứng.",
+      tagline: "Xây dựng hệ thống hình ảnh sẵn sàng ra mắt trong điều kiện thời gian gấp.",
       metaRole: "Vai trò: Thích ứng chiến dịch, thiết kế hệ thống visual, thực thi landing page",
       metaType: "Loại: Chiến dịch ra mắt sản phẩm · Tháng 9/2025",
       metaBrands: "Thương hiệu: TopZone × Thegioididong",

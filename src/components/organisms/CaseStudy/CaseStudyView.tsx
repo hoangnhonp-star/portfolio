@@ -85,7 +85,7 @@ export function CaseStudyView({ slug }: { slug: string }) {
           alt={pt.title}
           ratio="21/9"
           placeholderLabel={t.image.placeholder}
-          rounded="xl"
+          rounded="lg"
           dataId="project-hero-image"
         />
       </div>
